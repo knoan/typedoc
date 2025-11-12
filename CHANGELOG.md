@@ -4,6 +4,15 @@ title: Changelog
 
 ## Unreleased
 
+### Features
+
+- Function detail pages now display an "Overloads" summary section at the top when multiple overloads exist, providing quick navigation to each overload's documentation, #3037.
+
+### Bug Fixes
+
+- Fixed module summary pages to display all function overloads instead of only the first one, #3037.
+- Each overload in module summaries is now individually linked to its specific anchor on the detail page, #3037.
+
 ## v0.28.14 (2025-10-11)
 
 ### Features
